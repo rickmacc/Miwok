@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -85,7 +86,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         }
 
         // Set the background color for the text container
-        LinearLayout textContainer = (LinearLayout) listItemView.findViewById(R.id.text_container);
+        RelativeLayout textContainer = (RelativeLayout) listItemView.findViewById(R.id.text_container);
         int color = ContextCompat.getColor(getContext(), backgroundColorId);
         textContainer.setBackgroundColor(color);
 

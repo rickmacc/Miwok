@@ -2,9 +2,10 @@
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/word_list"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:drawSelectorOnTop="true"
     tools:context="com.example.android.miwok.NumbersActivity">
 
 </ListView>
